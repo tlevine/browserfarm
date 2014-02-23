@@ -23,7 +23,7 @@ wss.on('connection', function(ws) {
 })
 
 setInterval(function() {
-  events.emit('foo', 'bar')
+  events.emit('pick', 'bar')
   // console.log('clients', server.clients)
 }, 1000)
 
